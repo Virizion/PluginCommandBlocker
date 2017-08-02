@@ -1,0 +1,15 @@
+name: ${project.name}
+authors: [Virizion, xFier, Lukire]
+version: ${project.version}
+description: ${project.description}
+main: me.virizion.plugincommandblocker.PluginCommandBlocker
+commands:
+  plugincommandblocker:
+    description: Get info about the plugin.
+    usage: /<command>
+    permission: plugincommandblocker.command.info
+    aliases: [pcb]
+permissions:
+  plugincommandblocker.command.info:
+    description: Allows you to view info about the plugin.
+    default: op

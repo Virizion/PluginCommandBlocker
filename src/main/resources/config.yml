@@ -1,0 +1,5 @@
+blocked-commands:
+  '/plugins': 'Plugins (0):'
+  '/pl': 'Plugins (0):'
+  '/bukkit:plugins': 'Plugins (0):'
+  '/bukkit:pl': 'Plugins (0):'
